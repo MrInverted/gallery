@@ -1,0 +1,12 @@
+[
+  {
+    "login": "Valentyn",
+    "password": "1",
+    "id": "4f362afc-261c-4034-8826-b55c6c8bc2ba"
+  },
+  {
+    "login": "1",
+    "password": "1",
+    "id": "f4f92a8b-0aa3-4b5a-8b3e-a49a9bcf0133"
+  }
+]

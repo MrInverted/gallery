@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Some bicycle",
+    "image": "df8c74277493bc7021e9b0005-Carrera-vengeance-mountain-bike-3-scaled.jpg",
+    "category": "bike",
+    "user": "Valentyn",
+    "id": "53f82630-0ab6-428b-a3f2-93c42a069d02"
+  },
+  {
+    "title": "Cool guy",
+    "image": "df8c74277493bc7021e9b0006-istockphoto-1232568015-612x612.jpg",
+    "category": "bike",
+    "user": "Valentyn",
+    "id": "5e2568c6-fb5b-48ad-88da-a5f726118b43"
+  },
+  {
+    "title": "Riding",
+    "image": "df8c74277493bc7021e9b0007-Norco-Shore-2-freeride-mountain-bike-35-4a8b779.jpg",
+    "category": "bike",
+    "user": "Valentyn",
+    "id": "39e9f7c7-ce60-454c-afa0-6caee0893b13"
+  },
+  {
+    "title": "Racing",
+    "image": "df8c74277493bc7021e9b0008-Santa-Cruz-5010-CC-X01-RSV-25-1ddbe5a.jpg",
+    "category": "Race",
+    "user": "Valentyn",
+    "id": "b2c371f0-79be-4cf8-82f0-3c573f41a627"
+  },
+  {
+    "title": "Travelling",
+    "image": "df8c74277493bc7021e9b0009-World-canyon-mtb-my23-01.jpg",
+    "category": "travel",
+    "user": "Valentyn",
+    "id": "1b20c652-bcc4-4e49-b6ae-95db9828cac4"
+  },
+  {
+    "title": "Forest",
+    "image": "df8c74277493bc7021e9b000a-Без названия.jpg",
+    "category": "bike",
+    "user": "Valentyn",
+    "id": "b7dd94b7-d9ce-43ed-9907-0df7b751a9a4"
+  }
+]
