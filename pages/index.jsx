@@ -61,7 +61,7 @@ export const getServerSideProps = async (context) => {
   }
 
   try {
-    const { data } = await axios.get('http://localhost:3000/api/items')
+    const { data } = await axios.get('https://gallery-eight-chi.vercel.app/api/items')
 
     if (!data || data.lenght === 0) {
       return {

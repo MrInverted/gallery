@@ -10,7 +10,7 @@ export default function PhotoItem({ item, deletable }) {
   const handleDelete = () => {
     const newInit = init.filter(i => i.id !== item.id)
 
-    axios.post('http://localhost:3000/api/items', newInit)
+    axios.post('https://gallery-eight-chi.vercel.app/api/items', newInit)
       .then(res => console.log(res.data.success))
       .catch(err => console.warn(err))
 

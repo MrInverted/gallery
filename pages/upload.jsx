@@ -24,7 +24,7 @@ export default function upload() {
     const formData = new FormData();
     formData.append('file', e.target.files[0]);
 
-    axios.post('http://localhost:3000/api/upload', formData)
+    axios.post('https://gallery-eight-chi.vercel.app/api/upload', formData)
       .then(res => {
         console.log(res.data.success)
         setForm({ ...form, image: res.data.success, user: isLoginned.data.login })
