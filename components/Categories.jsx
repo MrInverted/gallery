@@ -28,7 +28,7 @@ export default function Categories({ init, setFiltered }) {
 
   return (
     <div className="my-3">
-      <div className="d-flex align-items-center gap-2">
+      <div className="d-flex flex-wrap align-items-center gap-2">
         {
           categories.map(i => (
             <button
