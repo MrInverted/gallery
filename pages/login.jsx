@@ -19,7 +19,7 @@ export default function login() {
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    axios.post('https://gallery-eight-chi.vercel.app/api/login', form)
+    axios.post(`${window.location.origin}/api/login`, form)
       .then(res => {
         console.log(res.data)
 

@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
     if (!init) return
     if (init.length === 0) return
 
-    axios.post('https://gallery-eight-chi.vercel.app/api/items', init)
+    axios.post(`${window.location.origin}/api/items`, init)
       .then(res => console.log(res.data.success))
       .catch(err => console.warn(err))
   }, [init])

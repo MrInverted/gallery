@@ -10,7 +10,7 @@ export default function PhotoItem({ item, deletable }) {
   const handleDelete = () => {
     const newInit = init.filter(i => i.id !== item.id)
 
-    axios.post('https://gallery-eight-chi.vercel.app/api/items', newInit)
+    axios.post(`${window.location.origin}/api/items`, newInit)
       .then(res => console.log(res.data.success))
       .catch(err => console.warn(err))
 
@@ -37,7 +37,7 @@ export default function PhotoItem({ item, deletable }) {
       <div className="photoItem border border-2 rounded rounded-4 p-4 bg-light">
         <div className="fg rounded rounded-4 overflow-hidden ">
           <Link href={`/photos/${item.image}`}>
-            <img className="img-fluid rounded rounded-4" src={item.image} alt="" />
+            <img className="img-fluid rounded rounded-4 w-100" src={item.image} alt="" />
           </Link>
         </div>
         <h2 className="mt-4 text-center ">{item.title}</h2>
